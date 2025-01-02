@@ -1,0 +1,60 @@
+header {
+  color: wheat;
+}
+#header_ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  font-family: Terminal;
+  padding: 0;
+  font-size: 20px;
+}
+.header_li{
+  margin-left:3vw;
+  margin-right: 3vw;
+}
+
+a {
+  color: wheat;
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 100%;
+}
+.Iosevka {
+  font-family: Iosevka Nerd Font;
+}
+.Terminal {
+  font-family: Terminal;
+}
+
+.my-info {
+  text-align: start;
+  padding: 1em;
+  font-family: Iosevka Nerd Font;
+}
+.my-info h1 {
+  font-size: 40px;
+}
+.my-info h3 {
+  font-size: 25px;
+  margin: 0;
+}
+.my-info h4 {
+  color: transparent;
+  animation: flow 2s ease-in-out forwards;
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  background-size: auto;
+  background-clip: border-box;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: 300%;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+  #cowboy-bebop {
+    display: none;
+  }
+}

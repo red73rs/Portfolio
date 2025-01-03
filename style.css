@@ -9,8 +9,8 @@ header {
   padding: 0;
   font-size: 20px;
 }
-.header_li{
-  margin-left:3vw;
+.header_li {
+  margin-left: 3vw;
   margin-right: 3vw;
 }
 
@@ -25,7 +25,7 @@ a {
   text-align: center;
   display: flex;
   justify-content: center;
-
+  align-items: center;
 }
 .Iosevka {
   font-family: Iosevka Nerd Font;
@@ -35,10 +35,10 @@ a {
 }
 
 .my-info {
-  text-align: start;
   padding: 1em;
   font-family: Iosevka Nerd Font;
   display: inline-block;
+  max-width: 400px;
 }
 .my-info h1 {
   font-size: 5em;
@@ -47,10 +47,12 @@ a {
   font-size: 3.5em;
   margin: 0;
 }
-.my-info h4{
-  font-size: 2em;
-}
 .my-info h4 {
+  font-size: 2em;
+  margin-bottom: 0.4em;
+}
+
+.gradient {
   color: transparent;
   animation: flow 2s ease-in-out forwards;
   background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
@@ -62,15 +64,16 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
-#anime-gif{
-  width: 20vw;
+#anime-gif {
+  width: 300px;
 }
 
-.bg-skill{
+.bg-skill {
   font-size: 2em;
-  background-color: grey;
+  background-color: #353434;
   margin: 0.2em;
   padding: 0.2em;
+  line-height: 2;
 }
 
 @media screen and (max-width: 768px) {

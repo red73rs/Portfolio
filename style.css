@@ -21,6 +21,11 @@ a {
 
 .wrapper {
   width: 100%;
+  font-size: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
 }
 .Iosevka {
   font-family: Iosevka Nerd Font;
@@ -33,13 +38,17 @@ a {
   text-align: start;
   padding: 1em;
   font-family: Iosevka Nerd Font;
+  display: inline-block;
 }
 .my-info h1 {
-  font-size: 40px;
+  font-size: 5em;
 }
 .my-info h3 {
-  font-size: 25px;
+  font-size: 3.5em;
   margin: 0;
+}
+.my-info h4{
+  font-size: 2em;
 }
 .my-info h4 {
   color: transparent;
@@ -53,8 +62,19 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
+#anime-gif{
+  width: 20vw;
+}
+
+.bg-skill{
+  font-size: 2em;
+  background-color: grey;
+  margin: 0.2em;
+  padding: 0.2em;
+}
+
 @media screen and (max-width: 768px) {
-  #cowboy-bebop {
+  #anime-gif {
     display: none;
   }
 }

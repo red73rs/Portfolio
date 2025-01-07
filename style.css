@@ -14,6 +14,7 @@ html {
     */
 
   /* Off-white */
+
   --main-color: rgba(240, 240, 240, 0.8);
   --link-color: var(--main-color);
   --hover-color: rgba(255, 255, 255, 1);
@@ -24,6 +25,9 @@ html {
   --nav-current-hover-color: rgba(70, 70, 0, 1);
   --nav-current-hover-background-color: rgba(255, 255, 0, 1);
   --nav-current-hover-shadow: rgba(255, 255, 0, 0.65);
+}
+.card-1-div{
+  display: none;
 }
 header {
   color: wheat;
@@ -49,10 +53,9 @@ a {
   padding: 7px;
 }
 
-a:hover{
+a:hover {
   background-color: var(--nav-current-hover-background-color);
   color: var(--nav-current-hover-color);
-
 }
 
 .wrapper {
@@ -62,6 +65,7 @@ a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 70vh;
 }
 .Iosevka {
   font-family: Iosevka Nerd Font;
@@ -116,12 +120,78 @@ a:hover{
   text-align: center;
 }
 .edited_img > img {
-  width: 50%;
+  width: 100%;
+  max-width: 500px;
 }
+
+.skills {
+  text-align: center;
+}
+.skills img {
+  width: 72px;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.projectImage {
+  width: 100%;
+}
+
+.card {
+  /*border: 2px solid red;*/
+  margin: 7px;
+  max-width: 370px;
+  background-color: #09312e;
+  border: solid  1px;
+  border-color: rgb(75 85 99/1);
+  border-radius: .5rem;
+  color: rgb(163 163 163/1);
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  font-family: Inter;
+}
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+
+  img s{
+    flex: 1 0 auto;
+  }
+}
+
+.card-2-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Inter;
+  font-weight: 300;
+  color: white;
+  font-size: 19px;
+}
+
+.card-3-div{
+  font-family: Iosevka Nerd Font;
+}
+
+.card-4-div span{
+  color: rgb(229 231 235/1);
+  background-color: rgb(55 65 81/1);
+  font-weight: 600;
+  border-radius: 0.25em;
+  padding-top: .375rem;
+  padding-bottom: .375rem;
+  padding-left: .75rem;
+  padding-right: .75rem;
+  font-family: Terminal;
+ }
 
 @media screen and (max-width: 768px) {
   #anime-gif {
     display: none;
   }
 }
-
